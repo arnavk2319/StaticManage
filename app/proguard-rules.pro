@@ -1,0 +1,10 @@
+-dontwarn javax.annotation.**
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+-dontwarn sun.misc.Unsafe
+-dontnote org.apache.http.params.**
+-dontnote org.apache.http.conn.**
+-dontnote android.net.http.**
+-dontnote com.google.gson.internal.UnsafeAllocator
+-dontnote okhttp3.internal.platform.AndroidPlatform
+-dontnote okhttp3.internal.platform.Platform
+-dontnote com.contentful.java.cda.Platform
