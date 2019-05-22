@@ -4,4 +4,16 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in_menu_action">Sign In</string>
+    <string name="sign_up_menu_action">Account Creation</string>
+    <string name="create_account">Create Account</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_nickname">Enter Nick Name</string>
+    <string name="enter_university_email">Enter University Email</string>
+    <string name="use_nickname_only">Use Nickname only</string>
+    <string name="password">Password</string>
+    <string name="capital_letter">Capital Letter</string>
+    <string name="number">Number</string>
+    <string name="eight_characters">8 Characters</string>
+
 </resources>

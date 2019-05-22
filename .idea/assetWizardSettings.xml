@@ -36,7 +36,6 @@
                                               <map>
                                                 <entry key="color" value="000000" />
                                                 <entry key="paddingPercent" value="5" />
-                                                <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -58,9 +57,10 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="D:\download\Path_2-xxxhdpi.png" />
-                                      <entry key="outputName" value="up_arrow_spinner" />
-                                      <entry key="themeColor" value="ffffff" />
+                                      <entry key="imageAsset" value="D:\download\6-layers-xxxhdpi-xxxhdpi.png" />
+                                      <entry key="outputName" value="visibility_icon" />
+                                      <entry key="theme" value="CUSTOM" />
+                                      <entry key="themeColor" value="c589fd" />
                                     </map>
                                   </option>
                                 </PersistentState>
