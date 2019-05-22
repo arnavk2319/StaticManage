@@ -9,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -18,6 +19,7 @@ public class SignUpFragment extends Fragment {
     TextView createAccountTextView,passwordTextView,capitalTextView,numberTextView,eightCharTextView;
     EditText fullNameEditText,nickNameEditText,emailEditText,passwordEditText;
     RadioButton nickNameRadioButton;
+    LinearLayout linearLayout;
 
     @Nullable
     @Override
@@ -36,6 +38,9 @@ public class SignUpFragment extends Fragment {
         passwordEditText = view.findViewById(R.id.passwordEditText);
 
         nickNameRadioButton = view.findViewById(R.id.nicknameRadioButton);
+
+        linearLayout = view.findViewById(R.id.linearLayout);
+        linearLayout.setElevation((float)15.0);
 
         return view;
 

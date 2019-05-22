@@ -1,4 +1,4 @@
-#Wed May 22 12:22:50 EDT 2019
+#Wed May 22 13:05:31 EDT 2019
 base.0=D\:\\AndroidStudioProjects\\StaticManage\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.0=classes.dex
 renamed.0=classes.dex
