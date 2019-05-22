@@ -16,4 +16,15 @@
     <string name="number">Number</string>
     <string name="eight_characters">8 Characters</string>
 
+
+    <string name="spinner_countryPrompt">Pick a Country</string>
+    <string name="spinner_statePrompt">Pick a State/Province</string>
+
+
+    <string-array name="country_arrays">
+        <item>Please select a Country</item>
+        <item>Canada</item>
+        <item>United States</item>
+    </string-array>
+
 </resources>

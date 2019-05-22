@@ -117,8 +117,8 @@
                     android:textColor="@color/getAheadThemeColor"
                     android:textSize="12sp"
                     android:layout_marginStart="28dp"
-                    android:paddingEnd="20dp"
-                    android:paddingStart="8dp"
+                    android:paddingEnd="15dp"
+                    android:paddingStart="0dp"
                     android:paddingTop="15dp"/>
 
                 <TextView
@@ -139,34 +139,118 @@
                     android:paddingEnd="20dp"
                     android:paddingStart="8dp"
                     android:paddingTop="15dp"/>
+
                 <TextView
                     android:id="@+id/eightCharTextView"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/eight_characters"
-                    android:textSize="12sp"
+                    android:layout_height="match_parent"
                     android:layout_marginEnd="12dp"
-                    android:paddingEnd="20dp"
                     android:paddingStart="8dp"
-                    android:paddingTop="15dp"/>
+                    android:paddingTop="15dp"
+                    android:paddingEnd="20dp"
+                    android:text="@string/eight_characters"
+                    android:textSize="12sp" />
 
 
             </LinearLayout>
 
             <EditText
                 android:id="@+id/passwordEditText"
-                android:drawableStart="@drawable/password_lock_icon"
-                android:drawableEnd="@drawable/visibility_icon"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="10dp"
+                android:drawableStart="@drawable/password_lock_icon"
+                android:drawableEnd="@drawable/visibility_icon"
+                android:drawablePadding="15dp"
+                android:hint="Enter Password"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:paddingBottom="25dp"
+                android:theme="@style/EditTextTheme" />
+
+            <EditText
+                android:id="@+id/edtTxt_pinCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Pin Code"
+                android:inputType="number"
+                android:visibility="visible"
+                android:drawableStart="@drawable/fingerprint"
+                android:drawableEnd="@drawable/visibility_icon"
+
                 android:drawablePadding="15dp"
                 android:paddingBottom="25dp"
                 android:paddingStart="5dp"
                 android:paddingEnd="5dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="10dp"
-                android:layout_marginTop="2dp"
+                android:layout_marginTop="15dp"
+
                 android:theme="@style/EditTextTheme" />
+
+            <EditText
+                android:id="@+id/edtTxt_phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Enter Phone Number"
+                android:inputType="number"
+                android:drawableStart="@drawable/phone"
+
+
+                android:theme="@style/EditTextTheme"
+                android:drawablePadding="15dp"
+                android:paddingBottom="25dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="15dp" />
+
+            <Spinner
+                android:id="@+id/spin_country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:prompt="@string/spinner_countryPrompt"
+                android:drawableStart="@drawable/globe"
+                android:paddingLeft="20dp"
+
+                android:theme="@style/EditTextTheme"
+                android:drawablePadding="15dp"
+                android:paddingBottom="25dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="15dp" />
+
+            <Spinner
+                android:id="@+id/spin_province"
+                android:prompt="@string/spinner_statePrompt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/locatorpin"
+
+                android:theme="@style/EditTextTheme"
+                android:drawablePadding="15dp"
+                android:paddingBottom="25dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="15dp" />
+
+            <Button
+
+                android:theme="@style/EditTextTheme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up !"
+
+                />
 
         </LinearLayout>
 
