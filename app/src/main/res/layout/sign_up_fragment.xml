@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:fadeScrollbars="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="RedundantNamespace"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/headingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_account"
+            android:paddingTop="2dp"
+            android:paddingStart="3dp"
+            android:paddingEnd="3dp"
+            android:textSize="35sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/white_background_sign_up_x"
+            android:elevation="15dp">
+
+            <EditText
+                android:id="@+id/nameEditText"
+                android:drawableStart="@drawable/name_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_full_name"
+                android:drawablePadding="15dp"
+                android:paddingBottom="25dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="15dp"
+                android:theme="@style/EditTextTheme"/>
+
+            <EditText
+                android:id="@+id/nickNameEditText"
+                android:drawableStart="@drawable/nick_name_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_nickname"
+                android:drawablePadding="15dp"
+                android:paddingBottom="25dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="15dp"
+                android:theme="@style/EditTextTheme"/>
+            
+            <RadioGroup
+                android:id="@+id/nicknameRadioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/nicknameRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/use_nickname_only"
+                    android:textSize="18sp"
+                    android:textColor="@color/getAheadThemeColor"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:checked="false"/>
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/emailEditText"
+                android:drawableStart="@drawable/email_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_university_email"
+                android:drawablePadding="15dp"
+                android:paddingBottom="25dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="2dp"
+                android:theme="@style/EditTextTheme"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/passwordText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/password"
+                    android:textColor="@color/getAheadThemeColor"
+                    android:textSize="12sp"
+                    android:layout_marginStart="28dp"
+                    android:paddingEnd="20dp"
+                    android:paddingStart="8dp"
+                    android:paddingTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/capitalLetterTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/capital_letter"
+                    android:textSize="12sp"
+                    android:paddingEnd="20dp"
+                    android:paddingStart="8dp"
+                    android:paddingTop="15dp"/>
+                <TextView
+                    android:id="@+id/numberTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/number"
+                    android:textSize="12sp"
+                    android:paddingEnd="20dp"
+                    android:paddingStart="8dp"
+                    android:paddingTop="15dp"/>
+                <TextView
+                    android:id="@+id/eightCharTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/eight_characters"
+                    android:textSize="12sp"
+                    android:layout_marginEnd="12dp"
+                    android:paddingEnd="20dp"
+                    android:paddingStart="8dp"
+                    android:paddingTop="15dp"/>
+
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:drawableStart="@drawable/password_lock_icon"
+                android:drawableEnd="@drawable/visibility_icon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="15dp"
+                android:paddingBottom="25dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="2dp"
+                android:theme="@style/EditTextTheme" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
