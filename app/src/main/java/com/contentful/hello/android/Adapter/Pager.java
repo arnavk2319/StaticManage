@@ -9,7 +9,7 @@ import com.contentful.hello.android.SignUpFragment;
 
 public class Pager extends FragmentStatePagerAdapter {
 
-    private String[] tabTitles = {"Sign In","Account Creation"};
+    private String[] tabTitles = {"Other Helpful Information", "Account Creation"};
 
     public CharSequence getPageTitle(int position)
     {
