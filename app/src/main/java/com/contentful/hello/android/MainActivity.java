@@ -58,8 +58,8 @@ public class MainActivity extends AppCompatActivity {
   private TextView messageView,vehicleName,priceValue,priceTypeName,legendTextView,priceRetail,priceInvoice,costBillingTextView,
           cashIncentivesTextView;
   private Button addOptionsButton;
-  private ScrollView scrollView;
-  private LinearLayout linearLayout,dropDownLayout;
+    private LinearLayout linearLayout, dropDownLayout;
+    private ScrollView scrollView;
   private SwipeRefreshLayout swipeRefreshLayout;
 
   private FirebaseFirestore mFirestore;
